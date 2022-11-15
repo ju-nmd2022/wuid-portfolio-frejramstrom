@@ -1,0 +1,63 @@
+.information {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "pos1 pos2 pos3"
+    "pos4 pos5 pos6";
+  gap: 5px;
+}
+
+body {
+  background-color: bisque;
+}
+
+.pos1 {
+  background-color: bisque;
+  grid-area: pos1;
+  width: 100%;
+  height: auto;
+}
+
+.pos2 {
+  background-color: bisque;
+  grid-area: pos2;
+  width: 100%;
+  height: auto;
+}
+
+.pos3 {
+  background-color: bisque;
+  grid-area: pos3;
+  width: 100%;
+  height: auto;
+}
+
+.pos4 {
+  background-color: bisque;
+  grid-area: pos4;
+  width: 100%;
+  height: auto;
+}
+
+.pos5 {
+  background-color: bisque;
+  grid-area: pos5;
+  width: 100%;
+  height: auto;
+}
+
+.pos6 {
+  background-color: bisque;
+  grid-area: pos6;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 200px) {
+  .pos6 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+}

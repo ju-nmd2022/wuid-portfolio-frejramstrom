@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+body {
+  background-color: darkslategrey;
+  font-size: small;
+  color: aliceblue;
+}
+
+.item-1 {
+  background-color: darkslategrey;
+  width: 30vw;
+  height: 40vw;
+  text-align: center;
+}
+
+.item-2 {
+  background-color: darkslategrey;
+  width: 30vw;
+  height: 40vw;
+}
+
+.item-3 {
+  background-color: darkslategrey;
+  width: 30vw;
+  height: 40vw;
+  align-items: flex-end;
+}
+
+.returning {
+  position: absolute;
+  width: 104%;
+  bottom: -30px;
+}
+
+.text {
+  background-color: darkslategrey;
+  width: 30vw;
+  height: 40vw;
+  position: absolute;
+  width: 90%;
+  bottom: -450px;
+}
