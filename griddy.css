@@ -54,10 +54,34 @@ body {
   height: auto;
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 600px) {
   .pos6 {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
+  }
+  .information {
+    grid-template-areas:
+      "pos1 pos2"
+      "pos4 pos5"
+      "pos3 pos6";
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .pos6 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  .information {
+    grid-template-rows: auto;
+    grid-template-areas:
+      "pos1"
+      "pos2"
+      "pos3"
+      "pos4"
+      "pos5"
+      "pos6";
   }
 }
